@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+   
+    "name": "TReward",
+    "version": "0.1.0",
+    "description": "Extention for automaticly claiming twitch rewards.",
+   
+    "content_scripts": [{
+      "js": ["script.js"],
+      "matches": ["https://*.twitch.tv/*"]
+    }]
+   
+  }

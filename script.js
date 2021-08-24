@@ -5,4 +5,4 @@ setInterval(() => {
     if(rewardBtn != null) {
         rewardBtn.click();
     }
-}, 60 * 1000)
+}, 30 * 1000)

@@ -3,7 +3,7 @@
    
     "name": "TReward",
     "version": "0.1.0",
-    "description": "Extention for automaticly claiming twitch rewards.",
+    "description": "An extention for automaticly claiming twitch rewards",
    
     "content_scripts": [{
       "js": ["script.js"],

@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
    
     "name": "TReward",
     "version": "0.1.0",
@@ -8,6 +8,11 @@
     "content_scripts": [{
       "js": ["script.js"],
       "matches": ["https://*.twitch.tv/*"]
-    }]
-   
+    }],
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "treward@deruever.nl"
+      }
+    }
   }
